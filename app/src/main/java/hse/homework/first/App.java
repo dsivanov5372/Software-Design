@@ -21,7 +21,7 @@ public class App {
             int size = Integer.parseInt(scanner.next());
 
             if (size < 0) {
-                throw new IllegalCallerException("Wrong array size!");
+                throw new IllegalArgumentException("Wrong array size!");
             } 
 
             int[] array = new int[size];
